@@ -6,15 +6,20 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
           theme: {
             extend: {
               colors: {
                 clifford: '#da373d',
-              }
-            }
-          }
+              },
+              manrope: 'Manrope'
+            },
+          },
         }
       </script>
 
@@ -82,6 +87,26 @@
     </nav>
 
    </header>
+
+   <head>
+    <div>
+      <div>
+      <img class="w-[128] h-[85] mx-auto items-center" src="banner.png" alt="">
+    </div>
+       <div>
+        <h1 class="text-6xl text-center font-manrope font-extrabold  mx-auto" >A barn house of this design has a <br> striking appearance</h1>
+       <p class="text-base text-center font-manrope font-normal text-gray-500 pt-2  mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+      </div>
+       <div class="items-center mx-auto justify-center text-center pt-3">
+        <a class="btn bg-lime-200   rounded-full ">View Details
+          <i class="fa-solid fa-arrow-right bg-lime-700 text-white rounded-full text-md w-5 h-5 -rotate-45 mx-auto items-center pt-1"></i>
+        </a>
+       </div>
+
+
+
+  </div>
+   </head>
     
 </body>
 </html>
